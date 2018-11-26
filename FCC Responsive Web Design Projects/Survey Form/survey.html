@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="survey_style.css">
+  <script type="text/javascript" scr=""></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+  <div class="heading">
+      <h1 id="title"> Survey of Social Media Warriors</h1>
+      <p id="description"> This survey is for those who have gone to combat
+        in cyber warfare battles on social media websites.
+      </p>
+  </div>
+  <form id="survey-form">
+    <!-- label, id=name-label & name field, id=name -->
+    <div class="leftsy">
+      <div class="labels">
+        <label id="name-label" for="name">
+          Screen Name:
+        </label>
+      </div>
+    </div>
+    <div class="rightsy">
+      <input type="name" id="name" class="input-field"
+      placeholder="Enter your screen name" required>
+      </input>
+    </div>
+    <!-- label, id=email-label & email field, id=email -->
+    <!-- email HTML5 validation error -->
+    <div class="leftsy">
+      <div class="labels">
+        <label id="email-label" for="email">
+          Contact Email:
+        </label>
+      </div>
+    </div>
+    <div class="rightsy">
+      <input type="email" id="email" class="input-field"
+      placeholder="Enter your email" required>
+      </input>
+    </div>
+    <!-- label, id=number-label & age field, id=number -->
+    <!-- age min/max html5 validation error -->
+    <div class="leftsy">
+      <div class="labels">
+        <label id="number-label" for="number">
+          What's your age?
+        </label>
+      </div>
+    </div>
+    <div class="rightsy">
+      <input type="number" id="number" class="input-field"
+      placeholder="What's your real age?" min="13" max="83">
+      </input>
+    </div>
+    <!-- in the above fields: use placeholders to describe field -->
+
+    <!-- each dropdown has the id=dropdown -->
+    <div class="leftsy">
+      <div class="labels">
+        <label for="battleground">
+          Which option is your preferred online battleground?
+        </label>
+      </div>
+    </div>
+    <div class="rightsy">
+      <select id="dropdown" name="battleground" class="dropdown">
+        <option value="" disabled>Choose battleground</option>
+        <option value="facebook">Facebook</option>
+        <option value="twitter">Twitter</option>
+        <option value="reddit">Reddit</option>
+        <option value="youtube">YouTube</option>
+        <option value="instagram">Instagram</option>
+        <option value="pinterest">Pinterest</option>
+        <option value="tumblr">Tumblr</option>
+        <option value="other">Other</option>
+        <option value="no">No. I don't use any of these.</option>
+      </select>
+    </div>
+
+    <div class="leftsy">
+      <div class="labels">
+        <label for="battle-frequency">
+          How often do you engage in social media combat?
+        </label>
+      </div>
+    </div>
+    <div class="rightsy">
+      <ul class="bullet-list">
+        <li class="radio">
+          <label>
+            <input type="radio" class="battle-frequency" value="1"
+            name="radio-buttons">
+            Hourly
+            </input>
+          </label>
+        </li>
+        <li class="radio">
+          <label>
+            <input type="radio" class="battle-frequency" value="2"
+            name="radio-buttons">
+            Daily
+            </input>
+          </label>
+        </li>
+        <li class="radio">
+          <label>
+            <input type="radio" class="battle-frequency" value="3"
+            name="radio-buttons">
+            Weekly
+            </input>
+          </label>
+        </li>
+        <li class="radio">
+          <label>
+            <input type="radio" class="battle-frequency" value="4"
+            name="radio-buttons">
+            Monthly
+            </input>
+          </label>
+        </li>
+        <li class="radio">
+          <label>
+            <input type="radio" class="battle-frequency" value="5"
+            name="radio-buttons">
+            Yearly
+            </input>
+          </label>
+        </li>
+        <li class="radio">
+          <label>
+            <input type="radio" class="battle-frequency" value="6"
+            name="radio-buttons">
+            No. I told you already, I avoid that crap.
+            </input>
+          </label>
+        </li>
+      </ul>
+    </div>
+    <!-- each radio group is grouped using the name attribute -->
+    <!-- checkbox groups each must have a value attribute -->
+    <div class="leftsy">
+      <div class="labels">
+        <label for="battle-win">
+          How do you know you've won the battle?
+        </label>
+      </div>
+    </div>
+    <div class="rightsy">
+      <ul class="battle-checklist">
+        <li class="checkbox"><label>
+          <input type="checkbox" class="battle-win" value="1">
+          You win the battle by framing a different conclusion from the same
+          information.
+        </input></label></li>
+        <li class="checkbox"><label>
+          <input type="checkbox" class="battle-win" value="2">
+          Accusing your opponent of being hostile even when their argument
+          is benign. Use the accused hostility against them!
+        </input></label></li>
+        <li class="checkbox"><label>
+          <input type="checkbox" class="battle-win" value="3">
+          You escalate the argument to levels where the opponent does no
+          longer wants to engage.
+        </input></label></li>
+        <li class="checkbox"><label>
+          <input type="checkbox" class="battle-win" value="4">
+          Stereotype the living crap out of them! Ultimate KO!
+        </input></label></li>
+        <li class="checkbox"><label>
+          <input type="checkbox" class="battle-win" value="5">
+          You people need professional help...
+        </input></label></li>
+      </ul>
+    </div>
+
+    <div class="leftsy">
+      <div class="labels">
+        <label for="war-win">
+          How do you know you've won the war?
+        </label>
+      </div>
+    </div>
+    <div class="rightsy">
+      <ul class="war-checklist">
+        <li class="checkbox"><label>
+          <input type="checkbox" class="war-win" value="1">
+          Your opponent is mad and is making basic spelling and grammatical
+          errors. This makes it easy to sucker punch them by being a spelling
+          and grammar nazi.
+        </input></label></li>
+        <li class="checkbox"><label>
+          <input type="checkbox" class="war-win" value="2">
+          They no longer respond in type, but in memes.
+        </input></label></li>
+        <li class="checkbox"><label>
+          <input type="checkbox" class="war-win" value="3">
+          You've been reported to the internet-authroities!
+        </input></label></li>
+        <li class="checkbox"><label>
+          <input type="checkbox" class="war-win" value="4">
+          Blocked! Ha-ha! What a loser!
+        </input></label></li>
+        <li class="checkbox"><label>
+          <input type="checkbox" class="war-win" value="5">
+          Please seek a councilor and seek psychiatric help immediately.
+        </input></label></li>
+      </ul>
+    </div>
+    <!-- have a textarea for additional comments -->
+    <div class="leftsy">
+      <div class="labels">
+        <label name="we-dont-want-to-hear-it"> Comments?
+        </label>
+      </div>
+    </div>
+    <div class="rightsy">
+      <div>
+        <textarea name="we-dont-want-to-hear-it"
+        class="nocomment"
+        placeholder="We would rather not know your comments.
+        Please stop making the internet toxic."
+        disabled></textarea>
+      </div>
+    </div>
+    <!-- have a button with the id=submit -->
+    <div class="header">
+      <button id="submit" class="submit-btn">Submit to the overlords</button>
+    </div>
+  </form>
+  <div class="footer">
+  </div>
+</html>

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Raleway');
+
+html {
+  background-color: #00f9ff;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 5px;
+}
+
+#survey-form {
+  font-family: 'PT Serif', serif;
+  background-color: #86f6f9;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.heading {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-color: #f0ff00;
+  padding: 15px;
+}
+
+.leftsy {
+  display: inline-block;
+  text-align: right;
+  width: 35%;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.rightsy {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  width: 45%;
+  padding: 10px;
+}
+
+.nocomment {
+  height: 100px;
+  width: 400px;
+  resize: vertical;
+}
+
+.submit-btn {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  align-items: center;
+  margin: 15px;
+}
+
+.footer {
+  background-color: #f0ff00;
+  padding: 15px;
+  height: 100px;
+  width: auto;
+}
