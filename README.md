@@ -1,6 +1,8 @@
 # Free Code Camp Projects
 
-This is a directory with my versions of Free Code Camp projects. 
+This is a directory with my versions of Free Code Camp projects.
+
+To view my progress through FCC: https://www.freecodecamp.org/spitfire22
 
 ##### Please Note:
 Free Code Camp has a requirement testing tool that is integrated into the
@@ -24,3 +26,9 @@ https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-proje
 
 Social media warrior survey page can be found here:
 https://codepen.io/Spitfire22/pen/dQmeQR
+
+## Project 3 - Building a PLP (Product Landing Page):
+PLP page requirements can be found here:
+https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
+
+Product page currently being constructed
