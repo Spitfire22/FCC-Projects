@@ -1,2 +1,5 @@
-# FCC-Projects
-Free Code Camp projects
+# Free Code Camp Projects
+
+This is a directory with my versions of Free Code Camp projects. 
+
+
