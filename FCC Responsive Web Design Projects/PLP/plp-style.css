@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Open+Sans');
+    /*
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    */
+
+/* Color set:
+  #f30303 - red
+  #033939 - dark green
+  #00e9dc - teal
+  #f8f3f5 - cream
+  #d18232 - sand
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #d18232;
+  width: 100%;
+  top: 0;
+  height: 80px;
+  position: fixed;
+  border-bottom: 5px solid #f8f3f5;
+}
+
+li {
+  float: right;
+}
+li #nav-link {
+  display: block;
+  color: #f30303;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d18232;
+}
+
+.compartment1 {
+  height: 400px;
+  width: auto;
+  background-color: #033939;
+  border-bottom: 5px solid #f8f3f5;
+}
+
+.compartment2 {
+  height: 400px;
+  width: auto;
+  background-color: #00e9dc;
+  border-bottom: 5px solid #f8f3f5;
+}
+
+.compartment3 {
+  height: 400px;
+  width: auto;
+  background-color: #d18232;
+  border-bottom: 5px solid #f8f3f5;
+}
+
+.compartment4 {
+  height: 400px;
+  width: auto;
+  background-color: #033939;
+}
